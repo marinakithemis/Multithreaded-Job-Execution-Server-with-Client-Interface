@@ -26,8 +26,6 @@ This project is a multithreaded job execution server with a client interface. It
 
 - include/: contains the header files header.h and structs.h .
 
-- lib/: is supposed to be for extra libraries, I have left it empty.
-
 - src/ : contains the source files jobCommander.c and jobExecutorServer.c
 
 - tests/ : includes some bash script tests I made, that use valgrind as well. 
