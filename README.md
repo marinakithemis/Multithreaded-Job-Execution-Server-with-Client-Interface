@@ -1,4 +1,4 @@
-# SYSPRO_HW2
+# Multithreaded Job Execution Server with Client Interface
 
 This project is a multithreaded job execution server with a client interface. It consists of two main components: a server (jobExecutorServer) that manages job requests and executes them using a pool of worker threads, and a client (jobCommander) that sends commands to the server. The server is designed to handle job execution requests in a concurrent manner while ensuring proper synchronization and communication between threads. The job queue is managed using a buffer with mutexes and condition variables to coordinate job handling and resource access. The project also includes testing scripts to validate functionality and memory management using tools like Valgrind.
 
